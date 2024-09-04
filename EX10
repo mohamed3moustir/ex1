@@ -1,0 +1,21 @@
+
+    int M[3];
+ 
+ int m;
+ for(int i=0;i<3;i++){
+       printf("enter M");
+       scanf("%d",&M[i]);
+       
+        }
+ printf("enter num");
+      scanf("%d",&m);
+      int x=0;
+      for(int i=0;i<3;i++){
+          if(m==M[i])
+             x+=1;
+      }
+     if(x==1)
+     printf("yes");
+     else
+     printf("no");
+  
