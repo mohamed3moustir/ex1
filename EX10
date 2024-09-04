@@ -1,4 +1,7 @@
+   #include <stdio.h>
 
+int main() {
+ 
     int M[3];
  
  int m;
@@ -18,4 +21,7 @@
      printf("yes");
      else
      printf("no");
+
+return 0;
+}
   
