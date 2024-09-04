@@ -1,0 +1,15 @@
+  int M[3];
+ int S[3];
+ int m;
+ for(int i=0;i<3;i++){
+       printf("enter M");
+       scanf("%d",&M[i]);
+       
+        }
+
+      for(int i=0;i<3;i++){
+         S[i]= M[i];
+       printf("%d\n",S[i]);
+  
+      }
+ 
