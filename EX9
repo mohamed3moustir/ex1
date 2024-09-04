@@ -1,0 +1,19 @@
+
+       int M[3];
+      for(int i=0;i<3;i++){
+        printf("enter M");
+       scanf("%d",&M[i]);
+}
+      for(int i=0;i<3-1;i++){
+          for(int j=0; j<3-i-1;i++){
+              if(M[j]>M[j+1]){
+          int m;
+          m=M[j];
+          M[j]=M[3-1-j];
+          M[3-1-j]=m;
+              }
+          }
+      }
+       for(int i=0;i<3;i++){
+           printf("%d",M[i]);
+       }
