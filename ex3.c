@@ -1,4 +1,8 @@
- int M[5];
+   #include <stdio.h>
+
+int main() {
+ 
+int M[5];
   int max=0;
    for(int i=0;i<5;i++){
        printf("enter ");
@@ -9,3 +13,5 @@
    }
    printf("MAX IS:%d \n",max);
  
+return 0;
+}
