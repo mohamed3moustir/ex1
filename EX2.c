@@ -1,4 +1,7 @@
+   #include <stdio.h>
 
+int main() {
+ 
    int M;
     printf("enter num");
    scanf("%d",&M);
@@ -9,3 +12,5 @@
    scanf("%d",&B);
    
    }
+return 0;
+}
