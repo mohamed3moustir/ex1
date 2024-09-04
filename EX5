@@ -1,4 +1,8 @@
- int M[5];
+   #include <stdio.h>
+
+int main() {
+ 
+int M[5];
   int min=__INT_MAX__;
    for(int i=0;i<5;i++){
        printf("enter MIN");
@@ -9,4 +13,5 @@
    }
    printf("MIN IS:%d \n",min);
  
- 
+ return 0
+}
