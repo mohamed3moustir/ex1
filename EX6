@@ -1,4 +1,7 @@
+#include <stdio.h>
 
+int main() {
+ 
  int M[3];
  int S[3];
  int m;
@@ -14,4 +17,5 @@
        printf("%d\n",S[i]);
   
       }
- 
+ return 0;
+}
