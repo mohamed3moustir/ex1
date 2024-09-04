@@ -1,4 +1,7 @@
+   #include <stdio.h>
 
+int main() {
+ 
        int M[3];
       for(int i=0;i<3;i++){
         printf("enter M");
@@ -17,3 +20,7 @@
        for(int i=0;i<3;i++){
            printf("%d",M[i]);
        }
+return 0;
+}
+
+
